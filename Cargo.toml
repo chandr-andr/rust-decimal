@@ -30,7 +30,7 @@ diesel1 = { default-features = false, optional = true, package = "diesel", versi
 diesel2 = { default-features = false, optional = true, package = "diesel", version = "2.1" }
 ndarray = { default-features = false, optional = true, version = "0.15.6" }
 num-traits = { default-features = false, features = ["i128"], version = "0.2" }
-postgres-types = { default-features = false, optional = true, version = "0.2" }
+postgres-types = { default-features = false, optional = true, branch = "master", git = "https://github.com/chandr-andr/rust-postgres.git" }
 proptest = { default-features = false, optional = true, features = [
     "std",
 ], version = "1.0" }
